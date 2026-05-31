@@ -165,19 +165,24 @@ http://localhost:6006
 
 ---
 
-### Visualisasi yang tersedia
+## 📸 Hasil Visualisasi TensorBoard
 
-TensorBoard menyediakan beberapa tab:
+### Training Trends (Time Series)
 
-| Tab           | Fungsi                                                     |
-| ------------- | ---------------------------------------------------------- |
-| Scalars       | Melihat perkembangan loss, accuracy, precision, recall, F1 |
-| Graphs        | Visualisasi arsitektur model                               |
-| Histograms    | Distribusi bobot model                                     |
-| Distributions | Distribusi parameter selama training                       |
-| HParams       | Perbandingan hyperparameter                                |
+TensorBoard digunakan untuk memvisualisasikan perkembangan metrik pelatihan dari setiap epoch, sehingga memudahkan proses monitoring performa model.
+
+![TensorBoard Time Series](images/tensorboard-timeseries.png)
 
 ---
+
+### Training Metrics (Scalars)
+
+TensorBoard digunakan untuk memantau perkembangan metrik selama proses pelatihan, termasuk loss, accuracy, precision, recall, F1-Score, dan AUC.
+
+![TensorBoard Scalars](images/tensorboard-scalars.png)
+
+---
+
 
 ## 📂 Struktur Repository
 
